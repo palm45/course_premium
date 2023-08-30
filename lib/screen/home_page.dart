@@ -29,15 +29,6 @@ class _HomePageState extends State<HomePage>{
                   'assets/images/cross_mark.png',
                   scale: 16,
                 ),
-
-                /*Text(
-                  'Premium',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontSize: 20.0,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),*/
               ],
             ),
           ),
@@ -52,7 +43,8 @@ class _HomePageState extends State<HomePage>{
                   'Premium',
                   style: TextStyle(
                     fontSize: 15.0,
-                    fontWeight: FontWeight.bold,
+                    fontWeight: FontWeight.bold
+                    ,
                   ),
                 ),
               ),
