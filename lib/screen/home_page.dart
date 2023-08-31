@@ -9,8 +9,6 @@ class HomePage extends StatefulWidget{
 }
 
 class _HomePageState extends State<HomePage>{
-  var value1=false;
-
   @override
   Widget build(BuildContext context) {
 
