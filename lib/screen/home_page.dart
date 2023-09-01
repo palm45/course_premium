@@ -57,7 +57,8 @@ class _HomePageState extends State<HomePage>{
                     color: Colors.black.withOpacity(0.6),
                   ),
                 ),
-              ), Padding(
+              ),
+              Padding(
                 padding: const EdgeInsets.symmetric(
                   horizontal:  16.0,
                   vertical:  8.0,
