@@ -62,6 +62,7 @@ class _HomePageState extends State<HomePage>{
           ),
           Expanded(
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Padding(
                     padding: const EdgeInsets.symmetric(
