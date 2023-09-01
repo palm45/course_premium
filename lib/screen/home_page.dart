@@ -57,6 +57,75 @@ class _HomePageState extends State<HomePage>{
                     color: Colors.black.withOpacity(0.6),
                   ),
                 ),
+              ), Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal:  16.0,
+                  vertical:  8.0,
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 8.0,
+                      ),
+                      child: Expanded(
+                        child: CategoryButton(
+                            image: 'assets/images/world.png',
+                            text: 'Full Access to',
+                            text2: 'Pattern Lessons'
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 8.0,
+                      ),
+                      child: Expanded(
+                        child: CategoryButton(
+                          image: 'assets/images/open_book.png',
+                          text: 'Unlock',
+                          text2: 'All Limitation',
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal:  16.0,
+                  vertical:  8.0,
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 8.0,
+                      ),
+                      child: Expanded(
+                        child: CategoryButton(
+                            image: 'assets/images/book_back.png',
+                            text: 'All Topics',
+                            text2: 'Available'
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 8.0,
+                      ),
+                      child: Expanded(
+                        child: CategoryButton(
+                          image: 'assets/images/document.png',
+                          text: 'Personlized',
+                          text2: 'Coaching',
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ],
           ),
@@ -64,76 +133,7 @@ class _HomePageState extends State<HomePage>{
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Padding(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal:  16.0,
-                      vertical:  8.0,
-                    ),
-                    child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 8.0,
-                            ),
-                            child: Expanded(
-                              child: CategoryButton(
-                                image: 'assets/images/world.png',
-                                text: 'Full Access to',
-                                text2: 'Pattern Lessons'
-                              ),
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 8.0,
-                            ),
-                            child: Expanded(
-                              child: CategoryButton(
-                                image: 'assets/images/open_book.png',
-                                text: 'Unlock',
-                                text2: 'All Limitation',
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal:  16.0,
-                      vertical:  8.0,
-                    ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 8.0,
-                          ),
-                          child: Expanded(
-                            child: CategoryButton(
-                                image: 'assets/images/book_back.png',
-                                text: 'All Topics',
-                                text2: 'Available'
-                            ),
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 8.0,
-                          ),
-                          child: Expanded(
-                            child: CategoryButton(
-                              image: 'assets/images/document.png',
-                              text: 'Personlized',
-                              text2: 'Coaching',
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
+
                   Padding(
                     padding: const EdgeInsets.only(
                       top: 20.0,
